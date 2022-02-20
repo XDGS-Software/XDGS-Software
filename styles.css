@@ -36,10 +36,11 @@ p {
     transition:left 150ms;
 }
 .discord:hover {
-    left:-10px;
+    left:-30px;
 }
 .discord > a > img {
     height:80px;
+	border-radius:10px;
 }
 .container > img {
     animation: 
