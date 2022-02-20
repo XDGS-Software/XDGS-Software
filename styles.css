@@ -2,12 +2,12 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin:0;
+  padding:0px;
 }
 
-body {
+html, body {
   background:#3366b8;
   width:100vw;
   height:100vh;
-  margin:0;
-  padding:0px;
 }
