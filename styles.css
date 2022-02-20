@@ -8,7 +8,7 @@
 }
 html,
 body {
-    background: linear-gradient(to right, #3366b8 , #091f42);
+    background: #3366b8;
     width: 100vw;
     height: 100vh;
 }
@@ -17,11 +17,25 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.8em;
     min-height: 100vh;
     flex-direction: column;
 }
 p {
     color: #fff;
     font-family: ubuntu mono, monospace;
+}
+.discord {
+    position:absolute;
+    top:50%;
+    left:-90px;
+    width:100px;
+    height:100px;
+    transition:left 150ms;
+}
+.discord:hover {
+    left:-10px;
+}
+.discord > a > img {
+    height:80px;
 }
