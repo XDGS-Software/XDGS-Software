@@ -10,7 +10,6 @@ html,
 body {
     width: 100vw;
     height: 100vh;
-	overflow:hidden;
 }
 .container {
     background: linear-gradient(-45deg, #3366b8, #041f4a, #0f5bd6, #273f66);
@@ -28,6 +27,24 @@ p {
     color: #fff;
     font-family: ubuntu mono, monospace;
 }
+.github {
+    position:absolute;
+    top:30%;
+    left:-80px;
+    width:130px;
+    height:100px;
+    transition:left 150ms;
+	background:white;
+	border-radius:10px;
+}
+.github:hover {
+    left:-30px;
+	z-index:1;
+}
+.github > a > img {
+    height:80px;
+	border-radius:10px;
+}
 .discord {
     position:absolute;
     top:41%;
@@ -38,7 +55,6 @@ p {
 }
 .discord:hover {
     left:-30px;
-	z-index:1;
 }
 .discord > a > img {
     height:80px;
@@ -54,7 +70,6 @@ p {
 }
 .patreon:hover {
     left:-30px;
-	z-index:1;
 }
 .patreon > a > img {
     height:80px;
