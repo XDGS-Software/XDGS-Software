@@ -42,3 +42,24 @@ p {
 .discord > a > img {
     height:80px;
 }
+.container > img {
+    animation: 
+        logoAnimation 500ms forwards,
+        logoAnimation2 800ms forwards;
+}
+@keyframes logoAnimation {
+    0% {
+        width:10px;
+    }
+    100% {
+        width:130px;
+    }
+}
+@keyframes logoAnimation2 {
+    0% {
+        filter:blur(5px);
+    }
+    100% {
+        filter:blur(0px);
+    }
+}
