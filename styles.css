@@ -29,10 +29,10 @@ p {
 }
 .github {
     position:absolute;
-    top:30%;
+    top:32%;
     left:-80px;
     width:130px;
-    height:100px;
+    height:80px;
     transition:left 150ms;
 	background:white;
 	border-radius:10px;
@@ -44,6 +44,10 @@ p {
 .github > a > img {
     height:80px;
 	border-radius:10px;
+	width:120px;
+    height:70px;
+	margin:5px;
+	margin-left:15px;
 }
 .discord {
     position:absolute;
