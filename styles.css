@@ -8,14 +8,13 @@
 }
 html,
 body {
-    background: rgb(51,102,184);
-    background: -moz-linear-gradient(90deg, rgba(51,102,184,1) 0%, rgba(9,31,66,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(51,102,184,1) 0%, rgba(9,31,66,1) 100%);
-    background: linear-gradient(90deg, rgba(51,102,184,1) 0%, rgba(9,31,66,1) 100%);
     width: 100vw;
     height: 100vh;
 }
 .container {
+    background: linear-gradient(-45deg, #3366b8, #041f4a, #0f5bd6, #273f66);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,4 +61,15 @@ p {
     100% {
         filter:blur(0px);
     }
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
