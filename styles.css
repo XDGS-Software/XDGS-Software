@@ -42,7 +42,7 @@ p {
     height:80px;
 	border-radius:10px;
 }
-.container > img {
+.container > a > img {
     animation: 
         logoAnimation 500ms forwards,
         logoAnimation2 800ms forwards;
