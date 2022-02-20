@@ -10,6 +10,7 @@ html,
 body {
     width: 100vw;
     height: 100vh;
+	overflow:hidden;
 }
 .container {
     background: linear-gradient(-45deg, #3366b8, #041f4a, #0f5bd6, #273f66);
@@ -37,6 +38,7 @@ p {
 }
 .discord:hover {
     left:-30px;
+	z-index:1;
 }
 .discord > a > img {
     height:80px;
@@ -52,6 +54,7 @@ p {
 }
 .patreon:hover {
     left:-30px;
+	z-index:1;
 }
 .patreon > a > img {
     height:80px;
