@@ -103,10 +103,10 @@ p {
         logoAnimation2 800ms forwards;
 	transition: width 500ms, height 500ms;
 }
-.container > a > img:hover {
+/* .container > a > img:hover {
 	border: #114291 5px solid;
 	border-radius:50%;
-}
+} */
 /* * img:hover {
 	border: #114291 5px solid;
 	border-radius:50%;
