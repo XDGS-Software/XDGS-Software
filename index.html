@@ -45,7 +45,7 @@
         var loaded = parseInt(localStorage.getItem('loaded'), 10),
         loaded_numb = loaded ? loaded+1 : 1;
         if (loaded_numb >= 69) {
-          $("#comming-soon").text("Nice you entered this page 69 times. this counter resets at this point but its a cool little easter egg :p");
+          $("#comming-soon").text("Nice you entered this page 69 times. The counter resets at this point but its still a neat little Easter egg :p");
           loaded_numb = 0;
         }
         localStorage.setItem('loaded', loaded_numb);
