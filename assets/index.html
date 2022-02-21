@@ -1,8 +1,8 @@
 <html lang="en">
   <head>
     <title>XDGS Asset Gallery</title>
-    
-    <link rel="stylesheet" href="/assets/styles.css">
+	
+	<link rel="icon" type="image/x-icon" href="/assets/logo.png">
     
     <meta http-equiv="cache-control" content="no-cache"> 
     <meta http-equiv="expires" content="0"> 
@@ -14,31 +14,14 @@
             referrerpolicy="no-referrer"></script>
   </head>
   <body>
-	<a href="/assets/">
-		/assets/
-	</a>
     <div class="container">
-	
-		<a href="/assets/GitHub-logo.png">
-		  GitHub-logo.png
-		</a>
-	  
-		<a href="https://discord.gg/72ZVGg86sE"> 
-		  discord.png
-		</a>
-
-		<a href="/assets/patreon.png">
-			patreon.png
-		</a>
-      
-		<a href="/assets/logo.png">
-			logo.png
-		</a>
-		
-		<a href="/assets/styles.css">
-			styles.css
-		</a>
+		<a href="/assets/GitHub-logo.png">GitHub-logo.png</a>
+	    <a href="https://discord.gg/72ZVGg86sE">discord.png</a>
+		<a href="/assets/patreon.png">patreon.png</a>
+		<a href="/assets/logo.png">logo.png</a>
+		<a href="/assets/styles.css">styles.css</a>
     </div>
+	<a href="/assets/" class="fldr">/assets/</a>
 	
 	<style>
 		*,
@@ -50,6 +33,7 @@
 			outline: none;
 			border: none;
 		}
+		
 		html,
 		body {
 			width: 100vw;
@@ -66,6 +50,8 @@
 			position:absolute;
 			top:0px;
 			left:0px;
+			width:100vw;
+			flex-direction:column;
 		}
 	
 		img {
@@ -80,6 +66,12 @@
 			font-size: 1.5em;
 			color: white;
 			font-family: ubuntu mono, monospace;
+		}
+		
+		.fldr {
+			position:absolute;
+			top:0px;
+			left:0px;
 		}
 	</style>
   </body>
