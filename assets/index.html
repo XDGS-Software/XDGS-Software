@@ -3,7 +3,6 @@
     <title>XDGS Asset Gallery</title>
     
     <link rel="stylesheet" href="/assets/styles.css">
-    <link rel="icon" type="image/x-icon" href="/assets/logo.png">
     
     <meta http-equiv="cache-control" content="no-cache"> 
     <meta http-equiv="expires" content="0"> 
@@ -42,11 +41,21 @@
     </div>
 	
 	<style>
-		* {
-			margin: 0px;
-			padding: 0px;
+		*,
+		*::before,
+		*::after {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+			outline: none;
+			border: none;
 		}
-	
+		html,
+		body {
+			width: 100vw;
+			height: 100vh;
+		}
+		
 		.container {
 			display: flex;
 			align-items: center;
