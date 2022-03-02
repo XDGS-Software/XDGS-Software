@@ -30,6 +30,16 @@ p {
     color: #fff;
     font-family: ubuntu mono, monospace;
 }
+a {
+    font-family: ubuntu mono, monospace;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+}
+a:hover {
+    text-decoration: underline;
+    color: #fef;
+}
 .github {
     position: absolute;
     top: 32%;
