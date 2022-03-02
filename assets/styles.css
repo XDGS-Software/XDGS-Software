@@ -12,6 +12,7 @@ html,
 body {
     width: 100vw;
     height: 100vh;
+    background: #242840;
 }
 .container {
     background: linear-gradient(-45deg, #3366b8, #041f4a, #0f5bd6, #273f66);
